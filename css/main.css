@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0px 50px;
+}
+
+
+em {
+    font-style: normal;
+}
+
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.navbar {
+    margin: 0px 27px 53px 5px;
+
+
+
+}
+
+
+
+.navbar,
+ul {
+
+    display: flex;
+    justify-content: space-between;
+
+
+
+
+}
+
+.navbar ul li a,
+.navbar img {
+    display: block;
+    padding-top: 44px;
+    border-top: 2px solid transparent;
+    width: 162px;
+    text-align: center;
+}
+
+.navbar ul li a:hover {
+
+
+
+    color: #0065FC;
+    border-top: 2px #0065FC solid;
+
+
+}
+
+#logo {
+    width: 59px;
+    align-self: flex-start;
+
+
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 700;
+
+
+}
+
+.searchSect p {
+    margin: 8px 0px 20px 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+form {
+    width: 418px;
+    height: 50px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    display: flex;
+
+
+}
+
+#searchTown,
+#searchTown:focus {
+    flex-grow: 3;
+    border: 0px;
+    margin: 1px 0px;
+    outline: none;
+}
+
+label {
+    width: 50px;
+    font-size: 14px;
+    padding: 16px 18px;
+    text-align: center;
+}
+
+
+
+#button {
+    background-color: #0065FC;
+    flex-grow: 2;
+    border: 0px;
+    -webkit-border-radius: 0px 15px 15px 0px;
+    border-radius: 0px 15px 15px 0px;
+    font-size: 18px;
+    font-weight: 700;
+
+    color: white;
+}
+
+#button:hover {
+    cursor: pointer;
+}
+
+/*hr {
+    display: none;
+
+    border: 2px solid #0065FC;
+
+
+
+    position: absolute;
+    top: 0px;
+
+
+
+
+}*/
+.filter {
+    max-width: 914px;
+    background-color: white;
+    height: 50px;
+    margin: 35px 12px;
+    font-weight: 700;
+    font-size: 18px;
+
+
+}
+
+.filter a {
+    font-size: 17px;
+    border: 2px solid #F2F2F2;
+    border-radius: 15px;
+    padding: 13px 20px;
+}
+
+.filter a:hover {
+    background-color: #DEEBFF;
+}
+
+.filter a i {
+    color: #0065FC;
+    margin-right: 10px;
+}
+
+.logements {
+    font-size: 16px;
+
+}
+
+.fa-info {
+    color: blue;
+    font-size: 10px;
+    border: 2px solid #F2F2F2;
+    border-radius: 100%;
+    padding: 7px 10px;
+    margin-right: 11px;
+
+
+}
+
+article {
+    background-color: #F2F2F2;
+}
+
+.housingM {
+    display: flex;
+    max-width: 880px;
+
+}
+
+.offer {
+    width: 246px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    background-image: url(../img/large/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+    background-color: white;
+    height: 199px;
+
+}
+
+.offer img {
+    width: 246px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+
+}
