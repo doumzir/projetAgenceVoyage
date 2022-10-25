@@ -14,7 +14,7 @@
 
     <header>
 
-        <section class="navbar flex spacebet">
+        <div class="navbar flex spacebet">
             <img src="/img/Booki.webp" alt="Logo Booki" id="logo">
             <nav>
 
@@ -36,9 +36,9 @@
                 </ul>
             </nav>
 
-        </section>
+        </div>
 
-        <section class="searchSect">
+        <div class="searchSect">
 
             <h1 class="bold titleG">Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein <em>centre-ville</em> ou en <em>pleine nature</em></p>
@@ -47,7 +47,8 @@
                     <i class="fa-solid fa-location-dot"></i>
                 </label>
                 <input type="search" name="searchTown" id="searchTown" placeholder="Tapez le nom de la ville !">
-                <input type="button" value="Rechercher" size="auto" id="button" class="bold">
+                <input type="button" value="Rechercher" id="button" class="bold button">
+                <div id="mobil" class="button"><i class="fa-solid fa-magnifying-glass bold"></i></div>
             </form>
             <div>
 
@@ -63,15 +64,15 @@
             </div>
             <p class="logements"><i class="fa-solid fa-info"></i> Plus de 500 logements sont disponible dans cette ville
             </p>
-        </section>
+        </div>
 
     </header>
 
     <main>
-        <article class="housing flex spacebet" id="housing">
+        <div class="housing flex spacebet" id="housing">
 
 
-            <section class="grey paddingspe flex spacebet column" id="hebergement">
+            <div class="grey paddingspe flex spacebet column" id="hebergement">
                 <h2 class="bold titleG">Hébergement à Marseille</h2>
                 <div class="housingM grid ">
                     <a href="#" class="advertisements relative test2 advertisementsFirstRow dropshadow ">
@@ -173,12 +174,12 @@
 
                 <a href="#" class="bold fontEighteen">Afficher plus</a>
 
-            </section>
+            </div>
             <div id="mostPopular" class="grey  paddingspe flex spacebet column">
 
-                <div>
-                    <h2 class="bold titleG">Les plus populaires</h2>
-                    <i></i>
+                <div class="flex spacebet titreM">
+                    <h2 class="bold titleG ">Les plus populaires</h2>
+                    <i class="fa-solid fa-chart-line"></i>
                 </div>
 
                 <a href="#" class="mostPopAd relative dropshadow ">
@@ -215,13 +216,11 @@
 
             </div>
 
-            </section>
-            </section>
-        </article>
+        </div>
 
         <section class="activities  flex column spacebet" id="activities">
             <h3 class="bold titleG">Activités à Marseille</h3>
-            <div class="flex spacebet">
+            <div class="flex spacebet mobil">
                 <a href="#" class="actDiv dropshadow">
                     <h3 class="absolute activitetr flex">Vieux-Port</h3><img
                         src="img/large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux-Port">
@@ -246,19 +245,19 @@
     </main>
 
     <!--<script src="https://kit.fontawesome.com/98d145350d.js" crossorigin="anonymous"></script>-->
-    <footer class="flex spacebet">
-        <div class="footC ">
+    <footer class="grid">
+        <div class="footCa ">
             <p class="bold fontEighteen">À propos</p>
             <p><a href="#"> Fonctionnement du site</a></p>
             <p><a href="#">Conditions générales</a></p>
             <p><a href="#">Données et confidentialité</a></p>
         </div>
-        <div class="flex column footC">
+        <div class="footC">
             <p class="bold fontEighteen ">Nos hébergements</p>
             <p><a href="#">Charte qualité</a></p>
             <p><a href="#">Proposer votre hôtel</a></p>
         </div>
-        <div class="flex column footC ">
+        <div class="footCass ">
             <p class="bold fontEighteen ">Assistance</p>
             <p><a href="#">Centre d’aide</a></p>
             <p><a href="#">Nous contacter</a></p>
