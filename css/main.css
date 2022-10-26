@@ -9,8 +9,8 @@ html {
 }
 
 * {
-    padding: 0px;
-    margin: 0px;
+    padding: 0rem;
+    margin: 0rem;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -20,9 +20,9 @@ html {
 body {
     max-width: 1400px;
     margin: auto;
-    padding: 0px 50px;
+    padding: 0rem 3.125rem;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
 
 }
 
@@ -52,16 +52,16 @@ body {
 }
 
 .titleG {
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 .fontEighteen {
-    font: 18px;
+    font: 1.125rem;
 }
 
 .dropshadow {
-    -webkit-box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0rem 0.1875rem 0.9375rem 0rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0rem 0.1875rem 0.9375rem 0rem rgba(0, 0, 0, 0.1);
 }
 
 .absolute {
@@ -84,56 +84,56 @@ a:visited {
 }
 
 .navbar {
-    margin: 0px 27px 53px 5px;
+    margin: 0rem 1.6875rem 3.3125rem 0.3125rem;
 }
 
 .navbar ul li a,
 .navbar img {
     display: block;
-    padding-top: 44px;
-    border-top: 2px solid transparent;
-    width: 162px;
+    padding-top: 2.75rem;
+    border-top: 0.125rem solid transparent;
+    width: 10.125rem;
     text-align: center;
 }
 
 .navbar ul li a:hover {
     color: #0065FC;
 
-    border-top: 2px #0065FC solid;
+    border-top: 0.125rem #0065FC solid;
 }
 
 #logo {
-    width: 59px;
+    width: 3.6875rem;
 }
 
 
 
 .searchSect p {
-    margin: 8px 0px 20px 0px;
+    margin: 0.5rem 0rem 1.25rem 0rem;
 
 
 }
 
 form {
-    width: 418px;
-    height: 50px;
-    -webkit-border-radius: 15px;
-    border-radius: 15px;
+    width: 26.125rem;
+    height: 3.125rem;
+    -webkit-border-radius: 0.9375rem;
+    border-radius: 0.9375rem;
     background-color: #F2F2F2;
 }
 
 #searchTown,
 #searchTown:focus {
     flex-grow: 3;
-    border: 0px;
-    margin: 1px 0px;
+    border: 0rem;
+    margin: 0.0625rem 0rem;
     outline: none;
 }
 
 label {
-    width: 50px;
-    font-size: 14px;
-    padding: 16px 18px;
+    width: 3.125rem;
+    font-size: 0.875rem;
+    padding: 1rem 1.125rem;
     text-align: center;
 }
 
@@ -142,10 +142,10 @@ label {
 .button {
     background-color: #0065FC;
     flex-grow: 2;
-    border: 0px;
-    -webkit-border-radius: 0px 15px 15px 0px;
-    border-radius: 0px 15px 15px 0px;
-    font-size: 18px;
+    border: 0rem;
+    -webkit-border-radius: 0rem 0.9375rem 0.9375rem 0rem;
+    border-radius: 0rem 0.9375rem 0.9375rem 0rem;
+    font-size: 1.125rem;
 
     color: white;
 }
@@ -160,21 +160,21 @@ label {
 
 
 .filter {
-    max-width: 914px;
+    max-width: 57.125rem;
     background-color: white;
-    height: 50px;
-    margin: 35px 12px;
+    height: 3.125rem;
+    margin: 2.1875rem 0.75rem;
 
-    font-size: 18px;
+    font-size: 1.125rem;
 
 
 }
 
 .filter a {
-    font-size: 17px;
+    font-size: 1.0625rem;
     border: 2px solid #F2F2F2;
     border-radius: 15px;
-    padding: 13px 20px;
+    padding: 0.8125rem 1.25rem;
 }
 
 .filter a:hover {
@@ -183,18 +183,18 @@ label {
 
 .filter a i {
     color: #0065FC;
-    margin-right: 10px;
+    margin-right: 0.625rem;
 }
 
 
 
 .fa-info {
     color: blue;
-    font-size: 10px;
-    border: 2px solid #F2F2F2;
+    font-size: 0.625rem;
+    border: 0.125rem solid #F2F2F2;
     border-radius: 100%;
-    padding: 7px 10px;
-    margin-right: 11px;
+    padding: 0.4375rem 0.625rem;
+    margin-right: 0.6875rem;
 
 
 }
@@ -203,7 +203,7 @@ label {
 
 #hebergement {
     width: 63%;
-    height: 626px;
+    height: 39.125rem;
 
 }
 
@@ -213,7 +213,7 @@ label {
 
 .fa-chart-line {
     color: #0065FC;
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 
@@ -225,7 +225,7 @@ label {
 .advertisements {
 
     width: auto;
-    height: 199px;
+    height: 12.4375rem;
     border: 5px solid white;
     border-radius: 20px;
     overflow: hidden;
@@ -254,7 +254,7 @@ footer,
 .advertisements img {
     position: absolute;
 
-    height: 124px;
+    height: 7.75rem;
 
     object-fit: cover;
 }
@@ -264,7 +264,7 @@ footer,
 .mostPopAd {
 
 
-    height: 144px;
+    height: 9rem;
 
     border: 5px solid white;
     border-radius: 20px;
@@ -274,7 +274,7 @@ footer,
 
 .mostPopAd img {
     width: 50%;
-    height: 144px;
+    height: 9rem;
     object-fit: cover;
 
 }
@@ -289,9 +289,9 @@ footer,
 
 
 .textAd {
-    padding: 0px 16px 0px 16px;
+    padding: 0rem 1rem 0rem 1rem;
     height: auto;
-    min-height: 75px;
+    min-height: 4.6875rem;
     position: absolute;
 
     background-color: white;
@@ -302,14 +302,14 @@ footer,
 }
 
 .paddingspe {
-    padding: 42px 40px;
+    padding: 2.625rem 2.5rem;
 }
 
 
 
 
 .prixano {
-    font-size: 14px;
+    font-size: 0.875rem;
 
 }
 
@@ -318,7 +318,7 @@ footer,
 
 
 
-    padding: 41px 42px 34px 37px;
+    padding: 2.5625rem 2.625rem 2.125rem 2.3125rem;
 
 
 
@@ -332,22 +332,23 @@ footer,
     grid-template-columns: repeat(3, 32%);
     grid-gap: 1%;
 
-    height: 429px;
+    height: 26.8125rem;
     overflow: hidden;
 }
 
 
 
 .right {
-    right: 0px;
+
+    right: 0rem;
     background-color: white;
-    height: 134px;
-    width: 206px;
-    padding: 0px 22px;
+    height: 8.375rem;
+    width: 12.875rem;
+    padding: 0rem 1.375rem;
 }
 
 .stars {
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #0065FC;
     grid-row: 10;
 }
@@ -357,19 +358,19 @@ footer,
 }
 
 .activities {
-    margin: 60px 0px;
-    height: 493px;
+    margin: 3.75rem 0rem;
+    height: 30.8125rem;
 
 
 }
 
 .activitetr {
-    bottom: 0px;
+    bottom: 0rem;
     background-color: white;
-    font-size: 16px;
+    font-size: 1rem;
 
-    height: 56px;
-    padding: 0px 20px;
+    height: 3.5rem;
+    padding: 0rem 1.25rem;
 
     justify-content: center;
     align-items: center;
@@ -379,8 +380,8 @@ footer,
 .actDiv {
     position: relative;
     width: 23%;
-    height: 445px;
-    border-radius: 20px;
+    height: 27.8125rem;
+    border-radius: 1.25rem;
     overflow: hidden;
 
 }
@@ -389,15 +390,17 @@ footer,
 
 .actDiv img {
 
-    height: 390px;
+    height: 24.375rem;
     object-fit: cover;
 }
 
 footer {
     background-color: #F2F2F2;
 
-    grid-template-columns: 10% repeat(6, 15%);
-    padding: 45px;
+    grid-template-columns: 0px repeat(3, 1fr);
+    grid-gap: 5%;
+
+    padding: 2.8125rem;
     height: 100%;
 }
 
@@ -409,30 +412,25 @@ footer {
 
 .footC {
 
-    grid-column-start: 4;
+    grid-column-start: 3;
 }
 
 .footCass {
 
-    grid-column-start: 6;
+    grid-column-start: 4;
 }
 
 footer div p {
-    margin-bottom: 12px;
+    margin-bottom: 0.75rem;
 }
 
 footer div p:first-child {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
-@media screen and (max-width: 992px) {
-    html {
-        font-size: 96%;
-    }
+@media screen and (max-width: 62rem) {
 
-    body {
-        width: 100%;
-    }
+
 
     .housing {
         flex-direction: column;
@@ -444,14 +442,14 @@ footer div p:first-child {
 
     #hebergement {
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 3.125rem;
     }
 
     #mostPopular {
         width: 100%;
-        height: 278px;
+        height: 17.375rem;
         flex-direction: row;
-        padding: 34px 40px 48px 40px;
+        padding: 2.125rem 2.5rem 3rem 2.5rem;
 
 
 
@@ -462,33 +460,33 @@ footer div p:first-child {
     }
 
     .titreM {
-        width: 900px;
+        width: 56.25rem;
     }
 
 
 
 
     .activities {
-        height: 331px;
+        height: 20.6875rem;
     }
 
     .mostPopAd {
         width: 32%;
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .actDiv {
-        height: 267px;
-        width: 182px;
+        height: 16.6875rem;
+        width: 11.375rem;
     }
 
     .actDiv img {
-        height: 267px;
+        height: 16.6875rem;
     }
 
     .filter {
         flex-wrap: wrap;
-        height: 120px;
+        height: 7.5rem;
         margin-bottom: 0;
     }
 
@@ -497,7 +495,7 @@ footer div p:first-child {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48rem) {
     body {
         padding: 0;
     }
@@ -507,7 +505,7 @@ footer div p:first-child {
 
 
 
-        margin: 21px 0 31px 0px;
+        margin: 1.3125rem 0 1.9375rem 0rem;
     }
 
     .navbar img {
@@ -520,9 +518,9 @@ footer div p:first-child {
 
     .navbar ul li a {
         width: 100%;
-        border-bottom: 2px solid transparent;
+        border-bottom: 0.125rem solid transparent;
         border-top: 0;
-        padding-bottom: 44px;
+        padding-bottom: 2.75rem;
     }
 
     .navbar ul li {
@@ -531,11 +529,11 @@ footer div p:first-child {
 
     .navbar ul li a:hover {
         border-top: 0;
-        border-bottom: 2px blue solid;
+        border-bottom: 0.125rem blue solid;
     }
 
     .searchSect {
-        padding: 0px 20px;
+        padding: 0rem 1.25rem;
         display: flex;
 
 
@@ -544,6 +542,7 @@ footer div p:first-child {
 
     form {
         align-self: center;
+        max-width: 100%;
     }
 
     .filter li:first-child {
@@ -557,7 +556,7 @@ footer div p:first-child {
 
     .filter li a {
         display: block;
-        border-radius: 25PX;
+        border-radius: 1.5625rem;
 
 
     }
@@ -566,7 +565,7 @@ footer div p:first-child {
 
     .filter {
         justify-content: space-around;
-        height: 200px;
+        height: 12.5rem;
         margin-bottom: 0;
     }
 
@@ -574,7 +573,7 @@ footer div p:first-child {
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 33% 33% 33%;
-        height: 250px;
+        height: 15.625rem;
     }
 
     .filter li:first-child {
@@ -587,8 +586,8 @@ footer div p:first-child {
     }
 
     #mostPopular {
-        height: 580px;
-        margin-bottom: 20px;
+        height: 36.25rem;
+        margin-bottom: 1.25rem;
 
 
     }
@@ -596,7 +595,7 @@ footer div p:first-child {
     .housingM {
         display: flex;
         flex-direction: column;
-        height: 1300px;
+        height: 81.25rem;
         justify-content: space-between;
     }
 
@@ -607,7 +606,7 @@ footer div p:first-child {
 
     #hebergement {
         background-color: white;
-        height: 1500px;
+        height: 93.75rem;
 
     }
 
@@ -620,11 +619,11 @@ footer div p:first-child {
     }
 
     .activities {
-        height: 1500px;
+        height: 93.75rem;
     }
 
     .mobil {
-        height: 1400px;
+        height: 87.5rem;
         flex-direction: column;
     }
 
@@ -636,7 +635,7 @@ footer div p:first-child {
         display: flex !important;
         flex-direction: column;
         justify-content: space-between;
-        height: 500px;
+        height: 31.25rem;
 
     }
 
@@ -645,18 +644,11 @@ footer div p:first-child {
     }
 
     #mobil {
-        position: relative;
+
         display: block;
 
     }
 
-    .fa-magnifying-glass {
-        position: absolute;
-        width: 100%;
-        z-index: 2;
-        text-align: center;
-        top: 25%;
-    }
 
 
 }
