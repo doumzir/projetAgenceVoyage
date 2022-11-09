@@ -56,7 +56,7 @@ body {
 }
 
 .fontEighteen {
-    font: 1.125rem;
+    font-size: 1.125rem;
 }
 
 .dropshadow {
@@ -117,8 +117,8 @@ a:visited {
 form {
     width: 26.125rem;
     height: 3.125rem;
-    -webkit-border-radius: 0.9375rem;
-    border-radius: 0.9375rem;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
     background-color: #F2F2F2;
 }
 
@@ -143,8 +143,8 @@ label {
     background-color: #0065FC;
     flex-grow: 2;
     border: 0rem;
-    -webkit-border-radius: 0rem 0.9375rem 0.9375rem 0rem;
-    border-radius: 0rem 0.9375rem 0.9375rem 0rem;
+    -webkit-border-radius: 0px 15px 15px 0px;
+    border-radius: 0px 15px 15px 0px;
     font-size: 1.125rem;
 
     color: white;
@@ -172,8 +172,8 @@ label {
 
 .filter a {
     font-size: 1.0625rem;
-    border: 2px solid #F2F2F2;
-    border-radius: 15px;
+    border: 0.125rem solid #F2F2F2;
+    border-radius: 0.9375rem;
     padding: 0.8125rem 1.25rem;
 }
 
@@ -204,6 +204,8 @@ label {
 #hebergement {
     width: 63%;
     height: 39.125rem;
+    -webkit-border-radius: 1.25rem;
+    border-radius: 1.25rem;
 
 }
 
@@ -232,11 +234,13 @@ label {
 }
 
 .advertisementsFirstRow {
-    grid-row: 1 / 3;
+    grid-row: 1;
+    grid-column: auto;
 }
 
 .advertisementsSecondRow {
-    grid-row: 4;
+    grid-row: 2;
+    grid-column: auto;
 }
 
 
@@ -310,13 +314,15 @@ footer,
 
 .prixano {
     font-size: 0.875rem;
+    grid-row: 3;
 
 }
 
 #mostPopular {
     width: 33%;
 
-
+    -webkit-border-radius: 1.25rem;
+    border-radius: 1.25rem;
 
     padding: 2.5625rem 2.625rem 2.125rem 2.3125rem;
 
@@ -329,9 +335,9 @@ footer,
 
 .housingM {
 
-    grid-template-columns: repeat(3, 32%);
-    grid-gap: 1%;
-
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.875rem;
+    grid-template-rows: 1fr 1fr;
     height: 26.8125rem;
     overflow: hidden;
 }
@@ -339,18 +345,20 @@ footer,
 
 
 .right {
-
+    font-size: 1rem;
     right: 0rem;
     background-color: white;
     height: 8.375rem;
     width: 12.875rem;
-    padding: 0rem 1.375rem;
+    padding: 0.625rem 0.9375rem;
 }
+
+
 
 .stars {
     font-size: 0.875rem;
     color: #0065FC;
-    grid-row: 10;
+    grid-row: 9;
 }
 
 .stars i:last-child {
@@ -379,10 +387,11 @@ footer,
 
 .actDiv {
     position: relative;
-    width: 23%;
+    width: 22%;
     height: 27.8125rem;
-    border-radius: 1.25rem;
+    border-radius: 20px;
     overflow: hidden;
+
 
 }
 
@@ -397,7 +406,7 @@ footer,
 footer {
     background-color: #F2F2F2;
 
-    grid-template-columns: 0px repeat(3, 1fr);
+    grid-template-columns: 0rem repeat(3, 1fr);
     grid-gap: 5%;
 
     padding: 2.8125rem;
@@ -427,6 +436,7 @@ footer div p {
 footer div p:first-child {
     margin-bottom: 1.25rem;
 }
+
 
 @media screen and (max-width: 62rem) {
 
@@ -468,6 +478,7 @@ footer div p:first-child {
 
     .activities {
         height: 20.6875rem;
+
     }
 
     .mostPopAd {
@@ -476,8 +487,8 @@ footer div p:first-child {
     }
 
     .actDiv {
-        height: 16.6875rem;
-        width: 11.375rem;
+        height: 267px;
+
     }
 
     .actDiv img {
@@ -495,7 +506,9 @@ footer div p:first-child {
 
 }
 
-@media screen and (max-width: 48rem) {
+
+
+@media screen and (max-width: 768px) {
     body {
         padding: 0;
     }
@@ -551,7 +564,7 @@ footer div p:first-child {
 
     .filter li {
 
-        width: 40%;
+        width: 45%;
     }
 
     .filter li a {
@@ -569,7 +582,8 @@ footer div p:first-child {
         margin-bottom: 0;
     }
 
-    /*.filter {
+    /*
+    .filter {
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 33% 33% 33%;
@@ -579,7 +593,8 @@ footer div p:first-child {
     .filter li:first-child {
         grid-row: 1;
         grid-column: span 2;
-    }*/
+    }
+*/
     .housing {
         flex-direction: column-reverse;
         height: 100%;
@@ -593,24 +608,43 @@ footer div p:first-child {
     }
 
     .housingM {
-        display: flex;
-        flex-direction: column;
-        height: 81.25rem;
-        justify-content: space-between;
+        grid-template-columns: 1fr;
+        grid-gap: 0.75rem;
+        grid-template-rows: repeat(6, 12.4375rem);
+        height: 79.375rem;
+
     }
+
+
+    .advertisementsFirstRow {
+        grid-row: auto;
+        grid-column: 1;
+    }
+
+    .advertisementsSecondRow {
+        grid-row: auto;
+        grid-column: 1;
+    }
+
 
     .advertisements {
         width: 100%;
+        height: 12.4375rem;
 
     }
+
+
 
     #hebergement {
         background-color: white;
-        height: 93.75rem;
+        height: 87.5rem;
+
 
     }
 
-    #hebergement a:last-child {
+
+
+    .link {
         display: none;
     }
 
@@ -619,19 +653,34 @@ footer div p:first-child {
     }
 
     .activities {
-        height: 93.75rem;
+        height: 56.25rem;
+        width: 80%;
+        margin: auto;
     }
 
     .mobil {
-        height: 87.5rem;
+        height: 53.125rem;
         flex-direction: column;
     }
 
     .actDiv {
         width: 100%;
+        height: 11.875rem;
+        margin: auto;
+
+
+    }
+
+    .activitetr {
+        justify-content: flex-start;
+    }
+
+    .actDiv img {
+        height: 11.875rem;
     }
 
     footer {
+        margin-top: 5rem;
         display: flex !important;
         flex-direction: column;
         justify-content: space-between;
@@ -650,5 +699,34 @@ footer div p:first-child {
     }
 
 
+}
+
+@media screen and (max-width: 340px) {
+    .filter li a {
+
+        font-size: 0.625rem;
+        height: 4.375rem;
+        text-align: center;
+
+    }
+
+    #mostPopular {
+        height: 46.875rem;
+    }
+
+    .mostPopAd {
+        height: 12.5rem;
+    }
+
+    .mostPopAd img {
+
+        height: 12.5rem;
+
+
+    }
+
+    .right {
+        height: 12.5rem;
+    }
 
 }
